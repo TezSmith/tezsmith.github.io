@@ -21,13 +21,16 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/font-mfizz-2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
 
   <!-- background -->
   <link rel="stylesheet" href="css/bg.css" type="text/css">
 
   <!-- color scheme -->
   <link rel="stylesheet" href="css/colors/scheme-8.css" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="cubeportfolio/css/cubeportfolio.css">
+
+
 </head>
 
 <body id="homepage">
@@ -148,7 +151,145 @@
       <!-- Close About Section -->
 
       <!-- Begin Portfolio Section -->
-      
+      <section id="section-portfolio">
+        <div class="container">
+
+          <!-- portfolio filter begin -->
+          <div class="row">
+
+            <div class="col-md-4">
+              <h2 class="s3"><span class="id-color">02</span>portfolio</h2>
+            </div>
+
+            <div class="col-md-8">
+      <div id="js-filters-masonry-projects" class="cbp-l-filters-buttonCenter">
+          <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+              All
+          </div>
+          <div data-filter=".redux" class="cbp-filter-item">
+              Redux
+          </div>
+          <div data-filter=".react" class="cbp-filter-item">
+              React
+          </div>
+          <div data-filter=".rails" class="cbp-filter-item">
+              Rails
+          </div>
+          <div data-filter=".javascript" class="cbp-filter-item">
+              Javascript
+          </div>
+          <div data-filter=".wordpress" class="cbp-filter-item">
+              Wordpress
+          </div>
+      </div>
+
+      <div id="js-grid-masonry-projects" class="cbp cbp-l-grid-masonry-projects">
+
+          <div class="cbp-item redux react rails">
+              <div class="cbp-caption">
+                  <div class="cbp-caption-defaultWrap">
+                      <img src="images/projects/carded.png" alt="">
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body">
+                              <a href="https://carded-v3.firebaseapp.com" class="cbp-l-caption-buttonLeft" rel="nofollow" target="_blank">View App</a>
+                              <a href="https://github.com/TezSmith/cardedFE" class="cbp-l-caption-buttonRight" target="_blank">View Code</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <a href="#" class="cbp-l-grid-masonry-projects-title" rel="nofollow">Carded</a>
+              <div class="cbp-l-grid-masonry-projects-desc">A business card conversion app.</div>
+          </div>
+
+          <div class="cbp-item react rails">
+              <div class="cbp-caption">
+                  <div class="cbp-caption-defaultWrap">
+                      <img src="images/projects/EatUp.png" alt="">
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body">
+                              <a href="http://eatup-front-end.herokuapp.com/" class="cbp-l-caption-buttonLeft" rel="nofollow" target="_blank">View App</a>
+                              <a href="https://github.com/critsmet/eatup-front-end" class="cbp-l-caption-buttonRight" target="_blank">View Code</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <a href="#" class="cbp-l-grid-masonry-projects-title" rel="nofollow">EatUp</a>
+              <div class="cbp-l-grid-masonry-projects-desc">Find a central location for your friends to eat!</div>
+          </div>
+
+          <div class="cbp-item rails">
+            <div class="cbp-caption">
+              <div class="cbp-caption-defaultWrap">
+                <img src="images/projects/Picky.png" alt="">
+              </div>
+              <div class="cbp-caption-activeWrap">
+                <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                    <a href="https://github.com/katrinagarloff/picky_partners" class="cbp-l-caption-buttonLeft" rel="nofollow" target="_blank">View Code</a>
+                    <a href="https://vimeo.com/tezsmith/picky" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Picky Partners<br>by Montez Smith & Katrina Garloff">Watch Video</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://vimeo.com/tezsmith/picky" class="cbp-lightbox cbp-l-grid-masonry-projects-title" rel="nofollow">Picky Partners</a>
+            <div class="cbp-l-grid-masonry-projects-desc">A Matching App for Project Partners at Flatiron School.</div>
+          </div>
+
+          <div class="cbp-item javascript">
+              <div class="cbp-caption">
+                  <div class="cbp-caption-defaultWrap">
+                      <img src="images/projects/Remixer.png" alt="">
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body">
+                              <a href="https://remixer-v2.firebaseapp.com" class="cbp-l-caption-buttonLeft" rel="nofollow" target="_blank">View App</a>
+                              <a href="https://vimeo.com/14912890" class="cbp-lightbox cbp-l-caption-buttonRight" >Watch Video</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <a href="#" class="cbp-l-grid-masonry-projects-title" rel="nofollow">Remixer</a>
+              <div class="cbp-l-grid-masonry-projects-desc">A beat making app.</div>
+          </div>
+
+          <div class="cbp-item wordpress">
+              <div class="cbp-caption">
+                  <div class="cbp-caption-defaultWrap">
+                      <img src="images/projects/Probound.png" alt="">
+                  </div>
+                  <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body">
+                              <a href="http://proboundtraining.com" class="cbp-l-caption-buttonLeft" rel="nofollow" target="_blank">View Site</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <a href="#" class="cbp-l-grid-masonry-projects-title" rel="nofollow">Probound Training</a>
+              <div class="cbp-l-grid-masonry-projects-desc">Basketball Training Camp Website.</div>
+          </div>
+
+
+      </div>
+
+      <!-- <div id="js-loadMore-masonry-projects" class="cbp-l-loadMore-button">
+          <a href="ajax-masonry-projects/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
+              <span class="cbp-l-loadMore-defaultText">LOAD MORE </span>
+              <span class="cbp-l-loadMore-loadingText">LOADING...</span>
+              <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
+          </a>
+      </div> -->
+
+        </div>
+
+
+      </section>
       <!-- End Portfolio Section -->
 
       <!-- Begin Experiences Section-->
@@ -328,7 +469,11 @@
             <div class="col-md-8 wow fadeInUp">
               <div class="row">
 
-                <form name="contactForm" id='contact_form' class="s2" method="post" action='email.php'>
+                <h3> LinkedIn </h3>
+                <h3> Github </h3>
+                <h3> Repl.it </h3>
+
+                <!-- <form name="contactForm" id='contact_form' class="s2" method="post" action='email.php'>
                   <div class="col-md-6">
                     <div class="field-set">
                       <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
@@ -362,7 +507,9 @@
                     <div id='mail_success' class='success'>Your message has been sent successfully.</div>
                     <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
                   </div>
-                </form>
+                </form> -->
+
+
               </div>
 
             </div>
@@ -388,11 +535,13 @@
     <div class="container text-center text-light">
       <div class="row">
         <div class="col-md-12">
+
           <div class="social-icons big">
-            <a href="http://twitter.com/webdevtez"><i class="fa fa-twitter fa-lg"></i></a>
-            <a href="http://linkedin.com/in/MontezSmith"><i class="fa fa-linkedin fa-lg"></i></a>
-            <a href="http://github.com/TezSmith"><i class="fa fa-github fa-lg"></i></a>
+            <a href="http://twitter.com/webdevtez" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="http://linkedin.com/in/MontezSmith" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="http://github.com/TezSmith" target="_blank"><i class="fab fa-github fa-lg"></i></a>
           </div>
+
         </div>
       </div>
     </div>
@@ -434,10 +583,13 @@
   <script src="js/typed.js"></script>
   <script src="js/typed-custom.js"></script>
   <script src="js/designesia.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+  <!-- load cubeportfolio -->
   <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
-
+  <!-- init cubeportfolio -->
+  <script type="text/javascript" src="cubeportfolio/js/main.js"></script>
 </body>
 
 </html>

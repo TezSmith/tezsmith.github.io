@@ -1,7 +1,7 @@
-/* 
-/* 
+/*
+/*
 	Section Background (bg.css)
-	
+
 	Table of Content
 	- general settings for section & subheader
 	- background settings for section
@@ -10,7 +10,7 @@
 
 
 /* background settings for section */
-#section-hero {background:url(../images/background/1.jpg) fixed;}
+#section-hero {background:url(../images/projects/Whiteboarding.jpeg) fixed;}
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
 #section-hero-3 {background:url(../images/background/6.jpg) fixed;}
 #section-hero-4 {background:url(../images/background/7.jpg) fixed;}
@@ -29,7 +29,7 @@
 #section-services.index-5 {background:url(../images/background/7a.jpg) fixed;}
 #section-experiences.index-5 {background:url(../images/background/7b.jpg) fixed;}
 #section-services.index-6 {background:url(../images/background/8.jpg) fixed;}
-#section-services.index-7 {background:url(../images/background/11.jpg) fixed;}
+#section-services.index-7 {background:url(../images/projects/TezHome.jpeg) fixed;}
 #section-experiences.index-6 {background:url(../images/background/8.jpg) fixed;}
 #section-contact.index-6 {background:url(../images/background/8.jpg) fixed;}
 #section-about.side-bg .background-image{background:url(../images/background/s1.jpg);}
