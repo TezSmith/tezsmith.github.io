@@ -389,6 +389,10 @@ header.de_header_2.smaller .info {
 	float: none;
 }
 
+#contact-header {
+	padding-left: 15px;
+}
+
 /* subheader */
 
 #subheader {
