@@ -20,8 +20,15 @@
             width: 800,
             cols: 2
         }, {
-            width: 480,
+            width: 600,
             cols: 2,
+            options: {
+                caption: 'pushDown',
+                gapHorizontal: 25,
+                gapVertical: 10
+        }}, {
+            width: 480,
+            cols: 1,
             options: {
                 caption: 'pushDown',
                 gapHorizontal: 25,
