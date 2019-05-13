@@ -10,7 +10,7 @@
 
 
 /* background settings for section */
-#section-hero {background:url(../images/projects/TezHome.jpeg) fixed;}
+#section-hero {background:url(../images/projects/TezHome.jpeg) no-repeat fixed center;}
 /* ../images/projects/Whiteboarding.jpeg
 ../images/projects/TezHome.jpeg */
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
@@ -58,7 +58,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-attachment:scroll;
 	}
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 380px) {
 	section{
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
