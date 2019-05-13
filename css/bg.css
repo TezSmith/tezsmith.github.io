@@ -10,7 +10,7 @@
 
 
 /* background settings for section */
-#section-hero {background:url(../images/projects/TezHome.jpeg) no-repeat fixed center;}
+#section-hero {background:url(../images/projects/TezHome.jpeg) no-repeat fixed;}
 /* ../images/projects/Whiteboarding.jpeg
 ../images/projects/TezHome.jpeg */
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
@@ -40,7 +40,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 
 
 /* media query */
-@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait){
+@media only screen and (min-device-width: 380) and (max-device-width: 1024) and (orientation: portrait){
 	section{
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
@@ -58,7 +58,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-attachment:scroll;
 	}
 }
-@media only screen and (min-width: 380px) {
+@media only screen and (max-width: 992px) {
 	section{
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
