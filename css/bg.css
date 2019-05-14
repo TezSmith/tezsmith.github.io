@@ -10,7 +10,10 @@
 
 
 /* background settings for section */
-#section-hero {background:url(../images/projects/TezHome.jpeg) no-repeat fixed center;}
+#section-hero {
+	background:url(../images/projects/TezHome.jpeg) no-repeat fixed center;
+	background-size: auto 100%;
+}
 /* ../images/projects/Whiteboarding.jpeg
 ../images/projects/TezHome.jpeg */
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
