@@ -52,11 +52,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	-moz-background-size: auto 100%;
 	-o-background-size: auto 100%;
 	background-size: auto 100%;
-	background-attachment:scroll;
-	}
-
-	#section-hero .full-height {
-		background-size: cover!important;
+	background-attachment: fixed;
 	}
 }
 
@@ -78,8 +74,5 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
-	
-	#section-hero .full-height {
-		background-size: cover!important;
-	}
+
 }
