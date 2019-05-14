@@ -40,7 +40,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 
 
 /* media query */
-@media only screen and (min-device-width: 320) and (max-device-width: 1024) and (orientation: portrait){
+@media only screen and (max-device-width: 1024) and (orientation: portrait){
 	
 	section{
 	-webkit-background-size: auto 100%;
