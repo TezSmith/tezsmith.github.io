@@ -48,11 +48,11 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 @media only screen (min-width: 300) and (max-width: 1024) and (orientation: portrait){
 
 	section{
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment: scroll;
 	}
 }
 
