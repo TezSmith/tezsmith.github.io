@@ -42,10 +42,10 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 /* media query */
 @media only screen and (min-device-width: 380) and (max-device-width: 1024) and (orientation: portrait){
 	section{
-	-webkit-background-size: auto 100%;
-	-moz-background-size: auto 100%;
-	-o-background-size: auto 100%;
-	background-size: auto 100%;
+	-webkit-background-size: cover 100%;
+	-moz-background-size: cover 100%;
+	-o-background-size: cover 100%;
+	background-size: cover 100%;
 	background-attachment:scroll;
 	}
 }
