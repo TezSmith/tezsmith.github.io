@@ -7665,9 +7665,9 @@ a, img {
 		height: auto;
 	}
 
-		#section-hero {
+		/* #section-hero {
 			background-size: auto 100%;
-		}
+		} */
 }
 
 /* --------------------------------------------------
@@ -7711,7 +7711,7 @@ a, img {
 		margin-top: 100px;
 	}
 
-	#section-hero {
+	/* #section-hero {
 		background-size: auto 100%;
-	}
+	} */
 }

@@ -50,11 +50,8 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
-
-	/* #section-hero {
-	   background-size: auto 100%;
-	} */
 }
+
 @media only screen and (max-width: 992px) {
 	#subheader{
 	-webkit-background-size: cover;
@@ -64,6 +61,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-attachment:scroll;
 	}
 }
+
 @media only screen and (max-width: 992px) {
 	section{
 	-webkit-background-size: auto 100%;
@@ -72,8 +70,4 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
-
-	/* #section-hero {
-		background-size: auto 100%;
-	} */
 }
