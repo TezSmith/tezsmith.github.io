@@ -13,15 +13,18 @@
 #section-hero {
 	background:url(../images/projects/TezHome.jpeg) no-repeat fixed center;
 }
+
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
 #section-hero-3 {background:url(../images/background/6.jpg) fixed;}
 #section-hero-4 {background:url(../images/background/7.jpg) fixed;}
 #section-hero-5 {background:url(../images/background/8.jpg) fixed;}
 #section-hero-6 {background:url(../images/background/10.jpg) fixed;}
 #section-hero-7 {background:url(../images/background/12.jpg) fixed;}
+
 #section-skills {
 	background:url(../images/projects/Whiteboarding.jpeg) no-repeat fixed;
 }
+
 #section-experience {background:url(../images/background/3.jpg) fixed;}
 #section-contact {background:url(../images/background/4.jpg) fixed;}
 #section-services.index-2 {background:url(../images/background/5a.jpg) fixed;}
@@ -75,6 +78,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
+	
 	#section-hero .full-height {
 		background-size: cover!important;
 	}
