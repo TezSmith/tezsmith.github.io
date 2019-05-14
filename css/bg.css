@@ -31,7 +31,7 @@
 #section-services.index-5 {background:url(../images/background/7a.jpg) fixed;}
 #section-experiences.index-5 {background:url(../images/background/7b.jpg) fixed;}
 #section-services.index-6 {background:url(../images/background/8.jpg) fixed;}
-#section-services.index-7 {background:url(../images/projects/TezHome.jpeg) fixed;}
+/* #section-services.index-7 {background:url(../images/projects/TezHome.jpeg) fixed;} */
 #section-experiences.index-6 {background:url(../images/background/8.jpg) fixed;}
 #section-contact.index-6 {background:url(../images/background/8.jpg) fixed;}
 #section-about.side-bg .background-image{background:url(../images/background/s1.jpg);}
@@ -41,12 +41,17 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 
 /* media query */
 @media only screen and (min-device-width: 320) and (max-device-width: 1024) and (orientation: portrait){
+	
 	section{
-	-webkit-background-size: cover 100%;
-	-moz-background-size: cover 100%;
-	-o-background-size: cover 100%;
-	background-size: cover 100%;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
 	background-attachment:scroll;
+	}
+
+	#section-hero {
+	   background-size: auto 100%;
 	}
 }
 @media only screen and (max-width: 992px) {
