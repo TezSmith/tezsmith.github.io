@@ -52,7 +52,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-attachment:scroll;
 	}
 
-	section#section-hero {
+	#section-hero .full-height {
 		background-size: cover!important;
 	}
 }
@@ -75,7 +75,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
-	#section-hero {
+	#section-hero .full-height {
 		background-size: cover!important;
 	}
 }
