@@ -12,7 +12,7 @@
 /* background settings for section */
 #section-hero {
 	background:url(../images/projects/TezHome.jpeg) no-repeat fixed center;
-	/* background-size: auto 100%; */
+	background-size: contain;
 }
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
 #section-hero-3 {background:url(../images/background/6.jpg) fixed;}
@@ -20,7 +20,10 @@
 #section-hero-5 {background:url(../images/background/8.jpg) fixed;}
 #section-hero-6 {background:url(../images/background/10.jpg) fixed;}
 #section-hero-7 {background:url(../images/background/12.jpg) fixed;}
-#section-skills {background:url(../images/projects/Whiteboarding.jpeg) no-repeat fixed;}
+#section-skills {
+	background:url(../images/projects/Whiteboarding.jpeg) no-repeat fixed;
+	background-size: contain;
+}
 #section-experience {background:url(../images/background/3.jpg) fixed;}
 #section-contact {background:url(../images/background/4.jpg) fixed;}
 #section-services.index-2 {background:url(../images/background/5a.jpg) fixed;}
