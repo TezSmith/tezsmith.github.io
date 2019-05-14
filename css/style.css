@@ -124,6 +124,11 @@ i.fas, i.fab, i.far {
 	padding-left: 60px;
 }
 
+#exp-title {
+  text-align: center;
+	margin-top: 15px;
+}
+
 /* ================================================== */
 
 
@@ -7692,5 +7697,13 @@ a, img {
 
 	.deco_box{
 		border:none;
+	}
+
+	/* #ed {
+		padding-left: 60px;
+	} */
+
+	#exp-title {
+		margin-top: 100px;
 	}
 }
