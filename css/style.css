@@ -7664,6 +7664,10 @@ a, img {
 		max-width: 200px;
 		height: auto;
 	}
+
+		#section-hero {
+			background-size: auto 100%;
+		}
 }
 
 /* --------------------------------------------------
