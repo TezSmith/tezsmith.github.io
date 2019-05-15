@@ -12,7 +12,7 @@
 /* background settings for section */
 #section-hero {
 	background-image: url(../images/projects/TezHome.jpeg);
-	background-size: cover;
+	background-size: auto 100%;
 }
 
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
@@ -24,7 +24,7 @@
 
 #section-skills {
 	background-image: url(../images/projects/Whiteboarding.jpeg);
-	background-size: cover;
+	background-size: auto 100%;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
