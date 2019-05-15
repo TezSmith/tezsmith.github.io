@@ -24,6 +24,7 @@
 
 #section-skills {
 	background:url(../images/projects/Whiteboarding.jpeg) no-repeat fixed;
+	background-size: cover;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
