@@ -48,25 +48,25 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 @media only screen (min-width: 300) and (max-width: 1024) and (orientation: portrait){
 
 	section {
-	-webkit-background-size: auto 100%;
+	/* -webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
-	-o-background-size: auto 100%;
+	-o-background-size: auto 100%; */
 	background-size: auto 100%;
 	background-attachment: scroll;
 	}
 
 	#section-hero {
-	-webkit-background-size: cover;
+	/* -webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover; */
 	background-size: cover;
 	background-attachment: scroll;
 	}
 
 	#section-skills {
-	-webkit-background-size: cover;
+	/* -webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover; */
 	background-size: cover;
 	background-attachment: scroll;
 	}
@@ -82,7 +82,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	}
 }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
 	section{
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
@@ -91,4 +91,4 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-attachment:scroll;
 	}
 
-}
+} */
