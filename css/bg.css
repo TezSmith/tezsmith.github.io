@@ -23,7 +23,8 @@
 #section-hero-7 {background:url(../images/background/12.jpg) fixed;}
 
 #section-skills {
-	background-image: url(../images/projects/Whiteboarding.jpeg);
+	background: url(../images/projects/Whiteboarding.jpeg) fixed;
+	background-size: auto auto;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
