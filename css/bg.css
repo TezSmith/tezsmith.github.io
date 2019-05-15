@@ -25,6 +25,9 @@
 #section-skills {
 	background-image: url(../images/projects/Whiteboarding.jpeg);
 	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
@@ -46,7 +49,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 #section-about.index-8.side-bg .background-image{background:url(../images/background/s2.jpg);}
 
 
-/* media query */
+/* media queries - Removed them because they did not work. */
 /* @media only screen (min-width: 300) and (max-width: 1024) and (orientation: portrait){
 
 	section {
