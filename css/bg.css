@@ -13,6 +13,8 @@
 #section-hero {
 	background-image: url(../images/projects/TezHome.jpeg);
 	background-size: auto 100%;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
@@ -25,6 +27,8 @@
 #section-skills {
 	background-image: url(../images/projects/Whiteboarding.jpeg);
 	background-size: auto 100%;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
