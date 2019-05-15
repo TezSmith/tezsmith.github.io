@@ -28,7 +28,7 @@
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	/* background-position: center; */
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
@@ -92,8 +92,8 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	section-hero{
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
-	-o-background-size: auto 100%; 
-	background-size: cover!important;
+	-o-background-size: auto 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	}
 
