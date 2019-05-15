@@ -66,7 +66,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	}
 }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
 	section{
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
@@ -75,4 +75,4 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	background-attachment:scroll;
 	}
 
-}
+} */
