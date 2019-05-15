@@ -25,8 +25,7 @@
 
 #section-skills {
 	background-image: url(../images/projects/Whiteboarding.jpeg);
-	background-size: auto 100%;
-	background-repeat: no-repeat;
+	background-size: cover !important;
 	/* background-position: center; */
 	background-attachment: fixed;
 }
