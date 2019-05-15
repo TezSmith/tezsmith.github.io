@@ -11,9 +11,8 @@
 
 /* background settings for section */
 #section-hero {
-	background-image: url(../images/projects/TezHome.jpeg);
-	background-size: auto 100%;
-	background-attachment: scroll;
+	background: url(../images/projects/TezHome.jpeg) fixed;
+	background-size: auto auto;
 }
 
 #section-hero-2 {background:url(../images/background/5.jpg) fixed;}
@@ -25,9 +24,6 @@
 
 #section-skills {
 	background-image: url(../images/projects/Whiteboarding.jpeg);
-	background-size: cover !important;
-	/* background-position: center; */
-	background-attachment: fixed;
 }
 
 #section-experience {background:url(../images/background/3.jpg) fixed;}
