@@ -93,7 +93,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	/* -webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
 	-o-background-size: auto 100%; */
-	background-size: cover;
+	background-size: auto 100%;
 	background-attachment:scroll;
 	}
 
