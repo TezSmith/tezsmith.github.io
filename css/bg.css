@@ -66,6 +66,7 @@ body.custom-bg-1{background:url(../images/background/none.jpg);}
 	}
 
 	#section-hero, #section-skill {
+	height: 100%;
 	background-attachment: fixed;
 	}
 }
